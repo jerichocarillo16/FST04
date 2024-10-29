@@ -34,4 +34,17 @@ git merge firstbranch
 git branch -d [branchname]
 
 // to clear on git bash terminal
+
+// Connecting to Github
+git remote add origin [websitename]
+
+//changing it to main for cosistency
+git branch -M main
+
+//Pushes our local repository to remote repository --Need to use after creating the remote repository
+git push -u origin
+
+//Pushed to our remote repository
+git push
+
 clear
