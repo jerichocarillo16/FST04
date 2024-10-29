@@ -21,6 +21,12 @@ git add.
 //Add a branc to our Repository
 git branch "firstbatch"
 
+// list of all branches
+git branch -a
+
+//switching to a different branch
+git checkout "branch_name'
+
 
 
 // to clear on git bash terminal
