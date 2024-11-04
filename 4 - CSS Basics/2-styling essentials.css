@@ -1,0 +1,102 @@
+/* Declaration Blocks - {} - Curly Braces */
+/* CSS is a compination of Property: value; */
+#text-styling {
+    font-family: "Times New Roman", Times, serif;
+
+    /* Word Values */
+    /* Font Weight */
+    font-weight: bolder;
+    font-weight: lighter;
+    font-weight: bold;
+    /* Default */
+    font-weight: normal;
+    
+    /* Numerical Values */
+    font-weight: 100;
+    font-weight: 200;
+    font-weight: 300;
+    font-weight: 1000;
+    font-weight: normal;
+
+    /* Font Style */
+    font-style: italic;
+    font-style: normal;
+    font-style: oblique;
+   
+    /* Text Align */
+  text-align: center;
+  text-align: left;
+  text-align: right;
+  text-align: justify;
+
+    /* Line Height */
+    line-height: 5;
+    line-height: 10;
+    line-height: 50%;
+    line-height: 90%;
+    line-height: 100%;
+    line-height: normal;
+    line-height: 24px;
+
+    /* Letter Spacing */
+    letter-spacing: 4px;
+    letter-spacing: 12px;
+    letter-spacing: normal;
+    letter-spacing: -4px;
+ 
+    
+  }
+
+  #text-decoration {
+    /* Text Decorations */
+    text-decoration: none; /* default */
+    text-decoration: line-through;
+    text-decoration: overline;
+    text-decoration: underline;
+    text-decoration: none;
+
+     /* Text Decoration Combined (Style, Color, Thickness) */
+  text-decoration: underline overline line-through;
+  text-decoration: line-through wavy gold;
+  text-decoration: overline dashed 10px;
+  /* Keyword Color Values */
+  /* color: red;
+  color: gold;
+  color: goldenrod;
+  background-color: red; */
+  /* RGB - Red, Green, Blue */
+  /* color: rgb(146, 97, 97); */
+  /* background-color: rgb(23, 50, 101); */
+  /* RGBA - Red, Gree, Blue, Alpha */
+  /* Alpha - Refers to the Opacity or Transparency */
+  /* color: rgba(0, 0, 0, 0.151); */
+  /* Hexadecimal Values */
+  /* 16 Base Numbering System */
+  /* 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, A, B, C, D, E, F */
+  /* A - 10 */
+  /* B - 11 */
+  /* C - 12 */
+  /* D - 13 */
+  /* E - 14 */
+  /* F - 15 */
+  /* Hexadecimal Value - #000000 */
+  /* Add Alpha to Hexadecimals */
+  color: #aa0000;
+  color: #00f00000;
+}
+
+
+
+#relative-unit-em {
+    /* Default em size */
+    font-size: 1em;
+    /* em will be multiplied to the value of its parent */
+    font-size: 2em;
+}
+
+#relative-unit-rem {
+    /* rem will be multiplied to the value of the root elemnt font-size */
+    /* Default */
+    font-size: 1rem;
+    font-size: 2rem;
+  }
